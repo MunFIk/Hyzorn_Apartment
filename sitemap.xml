@@ -1,5 +1,12 @@
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hyzornapartments.com/</loc>
+  </url>
+  <url>
+    <loc>https://hyzornapartments.com/rooms.html</loc>
+  </url>
+  <url>
+    <loc>https://hyzornapartments.com/gallery.html</loc>
   </url>
 </urlset>
