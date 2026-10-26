@@ -94,19 +94,18 @@
         </ul>
         <p>Private transfer arranged on request. Full address and gate code sent after booking is confirmed.</p>
       </div>
-      <div class="location-map reveal" role="img" aria-label="Stylised map showing Swiss Residence in Nugaduwa, Galle">
-        <svg viewBox="0 0 400 300">
-          <path class="map-contour" d="M20,220 C80,190 120,230 180,200 C240,170 300,210 380,160" />
-          <path class="map-contour" d="M10,260 C90,230 140,270 210,235 C280,200 330,240 390,205" />
-          <path class="map-contour" d="M30,160 C100,130 150,170 220,140 C290,110 340,150 390,120" />
-          <circle cx="220" cy="170" r="8" class="map-pin"/>
-          <circle cx="220" cy="170" r="15" class="map-radius"/>
-          <text x="240" y="165" class="map-label">Hyzorn Apartments</text>
-          <text x="240" y="185" class="map-small-label">Nugaduwa, Galle</text>
-          <text x="50" y="80" class="map-small-label">Galle Fort</text>
-          <text x="280" y="260" class="map-small-label">Southern Sri Lanka</text>
-        </svg>
-      </div>
+      <div class="location-map reveal">
+  <iframe
+    src="https://maps.google.com/maps?q=6.035954568076213%2C 80.24409383954817&amp;z=16&amp;output=embed"
+    width="100%"
+    height="100%"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="HYZORN Apartments Location - Galle">
+  </iframe>
+</div>
     </div>
   </section>
 
@@ -114,8 +113,8 @@
   <section id="contact" class="section contact">
     <div class="section-kicker reveal">04 — Enquire</div>
     <div class="contact-grid">
-     <form class="contact-form reveal" id="enquiryForm">
-  <input type="hidden" name="access_key" value="PASTE_YOUR_ACCESS_KEY_HERE">
+    <form class="contact-form reveal" id="enquiryForm" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="4732b302-238f-4365-b54c-f19b75fd3b62">
   <input type="hidden" name="subject" value="New enquiry — HYZORN Apartments">
   <input type="hidden" name="from_name" value="HYZORN Apartments Website">
   <!-- spam trap: leave hidden -->
@@ -151,14 +150,40 @@
   <p class="form-note" id="formNote" role="status"></p>
 </form>
       <div class="contact-details reveal">
-        <p class="lead">We reply within one business day.</p>
-        <dl>
-          <div><dt>Phone</dt><dd>+94 71 6022 128</dd></div>
-          <div><dt>Email</dt><dd>hyzornaparatments@gmail.com</dd></div>
-          <div><dt>Address</dt><dd>91/7 Mosque Road, Katugoda, Galle</dd></div>
-        </dl>
-      </div>
+  <p class="lead">We reply within one business day.</p>
+
+  <div class="whatsapp-contact">
+    <a
+      href="https://wa.me/94716022128"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-btn"
+    >
+      <span>✆</span>
+      <span>CHAT ON WHATSAPP</span>
+      <span class="whatsapp-arrow">→</span>
+    </a>
+
+    <a href="tel:+94716022128" class="whatsapp-phone">
+      +94 71 6022 128
+    </a>
+
+    <p class="whatsapp-description">
+      Quickest way to get a response
+    </p>
+  </div>
+
+  <dl>
+    <div>
+      <dt>Email</dt>
+      <dd>hyzornaparatments@gmail.com</dd>
     </div>
+    <div>
+      <dt>Address</dt>
+      <dd>91/7 Mosque Road, Katugoda, Galle</dd>
+    </div>
+  </dl>
+</div>
   </section>
 
 </main>
